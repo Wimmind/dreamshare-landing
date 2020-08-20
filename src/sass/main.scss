@@ -1,3 +1,31 @@
-body {
-
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('/src/assets/fonts/Montserrat-Regular.ttf') format('truetype'); 
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+        url('/src/assets/fonts/Motserrat-Bold.ttf') format('truetype'); 
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto'), local('Roboto'),
+        url('/src/assets/fonts/Roboto.ttf') format('truetype'); 
+}
+
+@import "./abstract/constants";
+@import "./abstract/mixin";
+
+@import "./base/base";
+
+@import "./components/promo";
+

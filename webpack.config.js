@@ -66,7 +66,8 @@ module.exports = {
             filename: 'style.css'
         }),
         new CopyWebpackPlugin([
-            {from: './src/assets/image', to: './assets/image'}
+            {from: './src/assets/image', to: './assets/image'},
+            {from: './src/assets/fonts', to: './assets/fonts'}
         ])
     ],
     devServer: {

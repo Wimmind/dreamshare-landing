@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: $content-width;
+    margin: 0 auto;
+}
+
