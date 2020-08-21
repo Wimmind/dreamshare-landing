@@ -16,6 +16,7 @@ button {
     color: #fff;
     font-weight: 700;
     font-style: normal;
+    font-size: 14px;
 }
 
 a {
@@ -27,3 +28,37 @@ a {
     margin: 0 auto;
 }
 
+.main {
+    margin-bottom: 100px;
+}
+
+.container-padding {
+    padding: 0 248px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+    
+}
+
+.h2_title {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+h3 {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+p {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 300;
+    font-family: "Roboto";
+}

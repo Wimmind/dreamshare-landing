@@ -1,0 +1,45 @@
+.footer {
+    width: 100%;
+    border-top: solid 4px $red;
+    &__container {
+        display: flex;
+        padding: 35px 248px;
+        position: relative;
+    }
+    &__logo {
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: red;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-transform: uppercase;
+        margin-right: 113px;
+    }
+    &__ico {
+        width: 112px;
+        height: 55px;
+        background-image: url(../assets/icon/footer_ico.png);
+        background-repeat: no-repeat;
+        background-position-y: 4px;
+        position: absolute;
+        right: 248px;
+    }
+    &__company {
+        display: flex;
+        flex-direction: column;
+        margin-right: 170px;
+    }
+    & h3{
+        margin-bottom: 12px;
+    }
+}
+
+.company-nav {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-weight: 300;
+    font-family: "Roboto";
+}
